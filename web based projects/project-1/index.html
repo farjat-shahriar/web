@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joy Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+    /* css reset */
+    body {
+        font-family: 'Baloo Chettan 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/people-2604149_1920.jpg');
+        height: 100%;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 5px;
+    }
+
+    .mid {
+        display: block;
+        width: 38%;
+        margin: 1px auto;
+        /* border: 2px solid green; */
+        top: 10px;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 5px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        /* font-size: 25px; */
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar a.active {
+        color: gray;
+        text-decoration: underline;
+        padding: 0px 10px;
+    }
+
+    .left img {
+        width: 80px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 10px; 
+    }
+
+    .btn {
+        margin: 0px 5px;
+        color: white;
+        background: black;
+        padding: 2px 3px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Chettan 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+    .container{
+        /* border: 2px solid rgb(38, 0, 255); */
+    width: 30%;
+    margin: 61px 36px;
+    padding: 35px 86px;
+    border-radius: 2px;
+    }
+    .fromgroup input{    
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 5px auto;
+    padding: 5px 4px;
+    text-align: center;
+    border: 2px solid black;
+    width: 73%;
+    display: block;
+    border-radius: 11px;
+}
+.container h3{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+    text-align: center;
+}
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/istockphoto-1141245908-612x612.jpg" alt="">
+
+            <div>Joy fitness</div>
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us </button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best gym</h3>
+        <form action="noaction.php">
+            <div class="fromgroup">
+                <input type="text" class="" placeholder="Enter your name">
+            </div>
+            <div class="fromgroup">
+                <input type="text" class="" placeholder="Enter your age">
+            </div>
+            <div class="fromgroup">
+                <input type="text" class="" placeholder="Enter your gender">
+            </div>
+            <div class="fromgroup">
+                <input type="text" class="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+    
+}
+#home h1{
+ 
+ flex-direction: column;
+ height: 50px;
+
+}
+#home p{
+ 
+ 
+ height: 50px;
+
+}
+
+#services{
+    flex-direction: column;
+    
+}
+#services .box{
+
+}
+#clients{
+    overflow: hidden;
+}
+#navbar{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
